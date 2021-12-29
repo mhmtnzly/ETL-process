@@ -5,11 +5,11 @@ from datetime import datetime
 import zipfile
 import os
 
-os.makedirs('dealership_data')
-zip = zipfile.ZipFile('datasource.zip')
-os.chdir('dealership_data')
-zip.extractall()
-os.chdir("..")
+# os.makedirs('dealership_data')
+# zip = zipfile.ZipFile('datasource.zip')
+# os.chdir('dealership_data')
+# zip.extractall()
+# os.chdir("..")
 
 tmpfile    = "dealership_temp.tmp"               # file used to store all extracted data
 logfile    = "dealership_logfile.txt"            # all event logs will be stored in this file
